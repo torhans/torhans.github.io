@@ -1,22 +1,12 @@
 <html>
 <body>
 <a id="123-yt" href="https://torhans.github.io/thegoodplace.html" onmouseover="hoverfunction()" onclick="clickfunction()" oncontextmenu="clickfunction()">Link</a>
-<script>
-    document.getElementById("user-agent-field").innerHTML += navigator.userAgent + " "  + navigator.platform;
-    function hoverfunction() {
-    document.getElementById("123-yt").href="https://torhans.github.io/thebadplace.html";
-    }
-    function clickfunction()
-    {
-    document.getElementById("123-yt").href="https://torhans.github.io/thebadplace.html";
-    }
-</script>
 
 </br>
 <a href="https://torhans.github.io/thegoodplace.html" onclick="javascript:location.href='https://torhans.github.io/thebadplace.html'">Link2</a>
 
 
- <code>
+ <xmp>
 <a id="123-yt" href="https://torhans.github.io/thegoodplace.html" onmouseover="hoverfunction()" onclick="clickfunction()" oncontextmenu="clickfunction()">Link</a>
 <script>
     document.getElementById("user-agent-field").innerHTML += navigator.userAgent + " "  + navigator.platform;
@@ -31,9 +21,21 @@
 
 </br>
 <a href="https://torhans.github.io/thegoodplace.html" onclick="javascript:location.href='https://torhans.github.io/thebadplace.html'">Link2</a>
- </code> 
+ </xmp> 
 
  <div id="user-agent-field"></div>
 
+ <script>
+    document.getElementById("user-agent-field").innerHTML += navigator.userAgent + " "  + navigator.platform;
+    function hoverfunction() {
+    document.getElementById("123-yt").href="https://torhans.github.io/thegoodplace.html";
+    }
+    function clickfunction()
+    {
+    document.getElementById("123-yt").href="https://torhans.github.io/thebadplace.html";
+    }
+</script>
+
+ 
  </body>
 </html>
